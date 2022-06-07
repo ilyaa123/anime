@@ -1,0 +1,76 @@
+img{
+    max-width: none;
+}
+h1{
+    margin: 20px;
+    text-align: center;
+}
+.container__page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.left__content > img{
+    width: 225px;
+}
+.left__content > p{
+    font-size: 24px;
+}
+.right__content{
+    max-width: 400px;
+}
+.right__content > p{
+    font-size: 26px;
+    margin: 20px;
+}
+.description{
+    max-width: 400px;
+    max-height: 320px;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: red rgba(100, 100, 100, 0.421);
+}
+.description::-webkit-scrollbar{
+    width: 8px;
+}
+.description::-webkit-scrollbar-track{
+    background: rgba(100, 100, 100, 0.421);
+}
+.description::-webkit-scrollbar-thumb{
+    background-color: red;
+    border-radius: 20px;       /* закругления плашки */
+}
+.image__content{
+    padding: 20px 0;
+}
+.image__content > h2{
+    text-align: center;
+}
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.image__kadr{
+    max-width: 400px;
+}
+.value{
+    font-size: 22px;
+    font-weight: 400;
+}
+.video__content{
+    width: 100%;
+    padding: 20px 0;
+}
+.video__content > h2{
+    text-align: center;
+}
+.video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
